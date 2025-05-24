@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb); /* Soft pastel gradient */
+    background-size: 200% 200%; /* Allows animation if needed */
+    animation: gradient-animation 8s ease infinite; /* Optional background animation */
+  }
+  
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  h1 {
+    color: #ffffff; /* White color to stand out on the gradient */
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+  }
+  
+  .editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff; /* Contrasting white card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  canvas {
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+  }
+  

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pic Perfect Project</title>
+    <link rel="stylesheet" href="Pic Perfect.css">
+    <link rel="stylesheet" href="popup.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+   
+    <div class="main_box">
+      <input type="checkbox" id="check"/>
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+      <body>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+          <input type="text" class="search-input" id="searchInput" placeholder="Search Collage, Resize, Feedback..." />
+          <button class="search-button" onclick="searchFeature()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      
+        <!-- Rest of your content -->
+      </body>
+      
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <!-- <marquee width="60%" direction="up" height="100px">
+            This is a sample scrolling text that has scrolls in the upper direction.
+            </marquee> -->
+          <a href="#" class="animated-logo">Pic <span>Perfect</span></a>
+        </div>
+        <div class="btn_two">
+          <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+        
+
+        <div class="menu">
+            <ul>
+                <li data-tooltip="Create Collages">
+                    <i class="fa-solid fa-image"></i>
+                    <a href="collage.html">Collage</a>
+                </li>
+                <li data-tooltip="Apply Filters">
+        
+                    <i class="fa-solid fa-filter"></i>
+                    <a href="Filters.html">Filter</a>
+                </li>
+                <li data-tooltip="Save Edited Photos">
+        
+                    <i class="fa-solid fa-floppy-disk"></i>
+                    <a href="save.html">Save</a>
+                </li>
+                <li data-tooltip="Resize Photos">
+        
+                    <i class="fa-solid fa-expand"></i>
+                    <a href="resize.html">Resize</a>
+                </li>
+                <li data-tooltip="Delete Unwanted Photos">
+        
+                  <i class="fa-solid fa-crop"></i>
+                    <a href="crop.html">crop</a>
+                </li>
+                <li data-tooltip="File Format Conversion">
+                    <i class="fa-solid fa-folder"></i>
+                    <a href="converter.html">Converter</a>
+                </li>
+                <li data-tooltip="Give Feedback">
+        
+                    <i class="fa-regular fa-comments"></i>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <!-- <li data-tooltip="Give Feedback">
+        
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="feedback.html">Contact</a>
+              </li> -->
+              <!-- <li data-tooltip="Github">
+        
+                <i class="fa-brands fa-github"></i>
+                <a href="feedback.html">Github</a>
+            </li> -->
+            </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="https://www.linkedin.com/in/piyush-saxena-eng/overlay/create-post/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-twitter"></i></a>
+            <!-- <a href="https://x.com/?lang=en-in"target="_blank"><i class="fa-brands fa-twitter"></i></a>For space use target -->
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://studio.youtube.com/channel/UCVWKPJwoOjrsgNdAb30l4NQ/videos?d=ud"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-sign-up">
+        <ul>
+            <li>
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <a href="login page.html">Login</a>
+            </li>
+            
+        </ul>
+        <script>
+          function searchFeature() {
+            // Get the value entered in the search bar
+            var userInput = document.getElementById('searchInput').value.toLowerCase().trim();
+        
+            // Define possible pages based on user input
+            var pages = {
+              "collage": "collage.html",
+              "resize": "resize.html",
+              "feedback": "feedback.html",
+              "filter": "Filters.html",
+              "save": "save.html",
+              "crop": "crop.html", // Link to the relevant page
+              "converter": "2.converter.html"
+            };
+        
+            // Check if the input matches any predefined keywords and navigate
+            if (pages[userInput]) {
+              window.location.href = pages[userInput];
+            } else {
+              alert("Feature not found. Please try again.");
+            }
+          }
+        </script>
+        
+    </div>
+    
+  </body>
+</html>
+

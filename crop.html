@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Image Cropper</title>
+  <link rel="stylesheet" href="cropper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Enhanced Image Cropper Tool</h1>
+  </header>
+  <div class="container">
+    <div class="upload-section">
+      <input type="file" id="fileInput" accept="image/*" hidden>
+      <button id="uploadBtn">Upload Image</button>
+    </div>
+    <div class="cropper-container">
+      <img id="imagePreview" src="" alt="Preview">
+    </div>
+    <div class="controls">
+      <button id="zoomInBtn">Zoom In</button>
+      <button id="zoomOutBtn">Zoom Out</button>
+      <button id="rotateLeftBtn">Rotate Left</button>
+      <button id="rotateRightBtn">Rotate Right</button>
+      <button id="flipHorizontalBtn">Flip Horizontal</button>
+      <button id="flipVerticalBtn">Flip Vertical</button>
+      <button id="resetBtn">Reset</button>
+      <button id="cropBtn">Crop & Download</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+  <script src="cropper.js"></script>
+</body>
+</html>

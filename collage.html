@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collage Maker | Pic Perfect</title>
+  <link rel="stylesheet" href="collage.css">
+</head>
+<body>
+  <header>
+    <h1>Collage Maker | Create Your Perfect Collage</h1>
+  </header>
+  <main>
+    <div class="controls">
+      <input type="file" accept="image/*" multiple id="uploadInput">
+      <label for="bgColorPicker">Background Color:</label>
+      <input type="color" id="bgColorPicker" value="#ffffff">
+      <input type="text" id="customText" placeholder="Enter text for collage">
+      <button id="generateCollage">Generate Collage</button>
+      <button id="downloadCollage">Download Collage</button>
+    </div>
+    <canvas id="collageCanvas"></canvas>
+  </main>
+  <script src="collage.js"></script>
+</body>
+</html>

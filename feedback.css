@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form textarea {
+    resize: none;
+  }
+  
+  form button {
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #45a049;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s ease;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #f39c12;
+  }
+  
+  .rating input:checked + label:hover,
+  .rating input:checked + label:hover ~ label {
+    color: #d35400;
+  }
+  
+  .rating label:hover {
+    transform: scale(1.2);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #thank-you-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
+  #error-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+  }
+  
+  #error-message h3 {
+    margin-bottom: 10px;
+  }
+  
+  #feedback-list {
+    margin-top: 40px;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+  
+  .feedback-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .feedback-item p {
+    color: #555;
+  }
+  
+  .feedback-item .rating {
+    color: #f39c12;
+    font-size: 1.2em;
+  }
+  
