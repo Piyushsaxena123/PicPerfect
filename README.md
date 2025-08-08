@@ -98,7 +98,7 @@ Photographers often rely on a mix of heavy software and unorganized folders to h
 *(Include screenshots or gifs of your app UI here)*
 
 ```
-![Image Gallery](https://github.com/your-username/pic-perfect/assets/example-image.png)
+[![Image Gallery](https://github.com/your-username/pic-perfect/assets/example-image.png)](https://github.com/Piyushsaxena123/PicPerfect/blob/934a5933e4b312642f3c37a6fd1062b271206086/Pic%20Perfect.png)
 ```
 
 ---
