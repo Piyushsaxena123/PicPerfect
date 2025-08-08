@@ -16,10 +16,9 @@ Photographers often juggle between multiple tools for filtering, cropping, resiz
 
 ## 👥 Team
 
-**Project Name:** Pic Perfect
-**Team Member:**
+**Project Name:** Pic Perfect  
+**Team Member:**   Piyush Saxena (Developer & Designer)
 
-* Piyush Saxena (Developer & Designer)
 
 ---
 
@@ -81,6 +80,12 @@ Photographers often rely on a mix of heavy software and unorganized folders to h
 * Converter are used to convet Word to Pdf.
 
 ---
+🌐 Live Demo
+Check out the live version of Pic Perfect here: 
+---
+https://picperfect1-ivory.vercel.app/
+
+---
 
 ## 🔮 Future Scope
 
@@ -93,13 +98,10 @@ Photographers often rely on a mix of heavy software and unorganized folders to h
 
 ---
 
-## 📸 Sneak Peek
+## 📸 Sneak Peek  
 
-*(Include screenshots or gifs of your app UI here)*
+![Pic Perfect Preview](https://github.com/Piyushsaxena123/PicPerfect/blob/main/Pic%20Perfect.png?raw=true)
 
-```
-[![Image Gallery](https://github.com/your-username/pic-perfect/assets/example-image.png)](https://github.com/Piyushsaxena123/PicPerfect/blob/934a5933e4b312642f3c37a6fd1062b271206086/Pic%20Perfect.png)
-```
 
 ---
 
@@ -109,15 +111,6 @@ Contributions, suggestions, and forks are welcome! Feel free to open issues or s
 
 ---
 
-## 📃 License
-
-[MIT](LICENSE)
-
----
-
 > Simplifying the creative process — one photo at a time. With **Pic Perfect**, your best shots are just a click away.
 
 ---
-
-Would you like me to turn this into a downloadable `README.md` file?
-
