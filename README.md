@@ -7,6 +7,12 @@
 </div>
 
 ---
+## 📸 Sneak Peek  
+
+![Pic Perfect Preview](https://github.com/Piyushsaxena123/PicPerfect/blob/main/Pic%20Perfect.png?raw=true)
+
+
+---
 
 ## 🚀 Overview
 
@@ -98,12 +104,6 @@ Check out the live version of Pic Perfect here:
 
 ---
 
-## 📸 Sneak Peek  
-
-![Pic Perfect Preview](https://github.com/Piyushsaxena123/PicPerfect/blob/main/Pic%20Perfect.png?raw=true)
-
-
----
 
 ## 🤝 Contributions
 
